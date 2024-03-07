@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4d4b4b;
+}
+
+header {
+    background-color: #3498db;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+.araba-detay {
+    display: flex;
+    margin: 0px;
+}
+
+.kart {
+    flex: 2; /* Dörtte üç genişlikte */
+    max-width: 50vw; /* Ekran genişliğinin 75%'i kadar */
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kart img {
+    width: 50%;
+    height: auto;
+    max-height: 300px; /* Toplam yüksekliği 60px olarak ayarla */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Kutu modelini sınır içine al */
+    
+}
+
+.ozellikler {
+    flex: 1; /* Dörtte bir genişlikte */
+    margin-left: 20px; /* Özelliklerden resimlere boşluk ekleyin */
+    box-sizing: border-box; /* Kutu modelini sınır içine al */
+}
+
+.ozellikler h2 {
+    margin-top: 20; /* Başlık üstündeki boşluğu kaldırın */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.detayBaslik{
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
